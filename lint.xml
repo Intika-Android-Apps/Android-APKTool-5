@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/per/pqy/apktool/MainActivity.java" />
+    </issue>
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="Wakelock" severity="ignore" />
+</lint>

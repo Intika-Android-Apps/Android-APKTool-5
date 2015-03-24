@@ -1,0 +1,15 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item 
+			android:id="@+id/setting" 
+			android:title="@string/setting"></item>
+		<item 
+		    android:id="@+id/refresh"
+			android:title="@string/refresh"></item><item android:id="@+id/diagnose" android:title="@string/diagnose"></item><item android:id="@+id/about" android:title="@string/about"></item>
+		<item 
+			android:id="@+id/exit" 
+			android:title="@string/exit"></item>
+		
+		
+		
+    </menu>

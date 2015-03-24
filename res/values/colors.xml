@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tvpath_blue">#00ffffff</color>
+    <color name="background_tvpath_grey">#88626262</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_tvpath_black">#00000000</color>
+</resources>

@@ -1,0 +1,142 @@
+
+    <resources>
+        <string name="app_name">ApKTOOl</string>
+        <color name="textcolor">#f905f5</color>
+	<string-array name="comp_array">
+            <item>编译</item>
+            <item>浏览</item><item>返回</item>
+            
+            
+        </string-array><string-array name="dec_array">
+            <item >反编译全部</item>
+            <item >反编译dex</item>
+            <item >反编译资源</item>
+            <item >签名</item>
+            <item >生成odex</item>
+            <item >zipalign优化</item>
+            <item >安装</item>
+            <item >删除dex</item>
+            <item >提取签名(META-INF)</item><item >删除签名(META-INF)</item>
+            <item >添加签名(META-INF)</item>
+            
+            <item >做为framework导入</item><item >dex2jar</item><item >jar2dex</item><item >返回</item>
+            
+            
+            
+            
+        </string-array>
+        
+        <string-array name="deodex_array">
+            <item >反编译</item>
+            <item >签名</item><item >返回</item>
+            
+        </string-array>
+        <string-array name="decdex_array">
+            <item >反编译</item>
+            <item >打包进同名apk文件</item><item >打包进同名jar文件</item>
+            <item >返回</item>
+
+        </string-array><string-array name="longpress_array">
+            <item >重命名</item>
+            <item >删除</item>
+            <item >获取访问权限(root)</item><item >设为apktool默认进入目录</item><item >返回</item>
+            
+            
+            
+        </string-array>
+        <string-array name="unpackimg">
+            <item >解包-mt657x(root)</item>
+            <item >解包-通用(root)</item>
+            <item >返回</item>
+        </string-array>
+        <string-array name="repackimg">
+            <item >打包-mt657x(root)</item>
+            <item >打包-通用(root)</item>
+            <item >浏览</item>
+            <item >返回</item>
+        </string-array><string name="op_done">操作完成！</string>
+        <string name="cost_time">本次操作共耗时：</string>
+        <string name="hour">时</string>
+        <string name="minute">分</string>
+        <string name="second">秒</string>
+        <string name="ok">确定</string>
+        <string name="copy">复制</string>
+        <string name="decompile_all_finish">反编译完成！</string>
+        <string name="sign_finish">签名完成！</string>
+        <string name="recompile_finish">编译完成！</string>
+        <string name="decompile_dex_finish">反编译dex完成！</string>
+        <string name="decompile_res_finish">反编译资源完成！</string>
+        <string name="decompile_odex_finish">反编译odex完成！</string>
+        <string name="import_finish">导入完成！</string>
+        <string name="align_finish">优化完成！</string>
+        <string name="delete_finish">删除完成！</string>
+        <string name="add_finish">添加完成！</string>
+        
+        <string name="decompiling">正在反编译。。。</string>
+        <string name="signing">正在签名。。。</string>
+        <string name="making">正在生成。。。</string>
+        <string name="aligning">正在优化。。。</string>
+        <string name="deleting">正在删除。。。</string>
+        <string name="unpacking">正在提取。。。</string>
+        <string name="dir_exist">当前目录已存在META-INF文件夹，请先删除之。</string>
+        <string name="adding">正在添加。。。</string>
+        <string name="dir_not_exist">当前目录不存在META-INF文件夹！</string>
+        <string name="importing_framework">正在安装framework。。。</string>
+        <string name="recompiling">正在编译。。。</string>
+        <string name="apk_not_exist">不存在同名apk文件！</string>
+        <string name="jar_not_exist">不存在同名jar文件！</string>
+        <string name="new_name">新名称</string>
+        <string name="cancel">取消</string><string name="want_to_delete">删除？</string>
+        <string name="repacking">正在打包。。。</string>
+        <string name="never_remind">不再提醒</string><string name="put_background">放入后台</string>
+        <string name="declaration">作者声明</string>
+        <string name="want_to_exit">退出？</string>
+        <string name="yes">是</string>
+        <string name="no">否</string>
+        <string name="about">关于软件</string>
+        <string name="vibration_on">操作完成振动提示</string>
+        <string name="setting">设置</string>
+        <string name="notify">通知栏提示</string>
+        <string name="screen_on">开启屏幕常亮</string>
+        
+        <string name="nofreetask">已达到最大任务数！</string>
+        <string name="cur_task_not_run">当前任务未运行。</string>
+        
+        <string name="agreement">本程序为个人作品，没有任何担保。</string>
+        <string name="directory_no_permission">当前路径无权访问</string>
+        <string name="warning">警告！</string>
+        <string name="data_not_in_sdcard">内存卡根目录未检测到apktool数据目录，您必须先找到apktool数据目录，长按选择“设为apktool数据目录”</string>
+        <string name="wrap_msg">输出信息换行</string>
+        <string name="running">运行中。。。</string>
+        <string name="make_rom">本功能为新功能，处于测试阶段。目的是自动提取本机ROM制作成刷机包，如果你想在刷机包中加入boot.img，请把它放到apktool数据目录。操作完成后将会在apktool数据目录生成rom文件夹，你可能需要手动修改一下rom/META-INF/com/google/android/updater-script文件。然后把rom目录所有文件打包为zip就是刷机包了。</string>
+        <string name="making_rom">制作中，可能需要一段时间。。。</string>
+        <string name="vibration_off">操作完成不振动</string>
+        <string name="vibration">振动</string>
+        <string name="notify_on">操作完成通知栏提示</string>
+        <string name="notify_off">操作完成不在通知栏显示</string>
+        <string name="screen">屏幕常亮</string>
+        <string name="screen_off">关闭屏幕常亮</string>
+        <string name="wrap_msg_on">输出信息自动换行</string>
+        <string name="wrap_msg_off">输出信息不换行</string>
+        <string name="themes">背景切换(重启生效)</string>
+        <string name="apktool_version">apktool版本切换</string>
+        <string name="aapt_version">aapt版本切换</string>
+        <string name="visit">访问</string>
+        <string name="refresh">刷新</string>
+        <string name="tasks">任务</string>
+        <string name="makerom">ROM制作</string>
+        <string name="donate">捐赠</string>
+        <string name="exit">退出</string>
+        <string name="folderfirst">文件夹排在文件前面</string>
+        <string name="mixdsort">文件夹和文件一起排列</string>
+        <string name="filesortmode">文件排列方式</string>
+        <string name="have_root">设备已root(切换需重启软件)</string>
+        <string name="no_root">设备没有root</string>
+        <string name="detail">软件版本5.0.2　。QQ交流群135786845 如果您喜欢本程序，觉得本程序很好用，希望给开发者一点鼓励，可以给开发者交点话费，５块钱即可。南京联通15651777367,非常感谢！</string>
+        <string name="diagnose">诊断</string>
+        <string name="diagnose_msg">诊断文件在/sdcard/apktool_info.txt,请将此文件发给作者分析．</string>
+
+        
+        
+        
+    </resources>

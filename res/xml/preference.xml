@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<PreferenceScreen   
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:title="@string/setting" android:key="Settings">  
+    <CheckBoxPreference android:title="@string/vibration" android:summaryOn="@string/vibration_on" android:summaryOff="@string/vibration_off" android:defaultValue="false" android:key="vibration" android:enabled="true">  
+        </CheckBoxPreference><CheckBoxPreference android:key="notify" android:summaryOn="@string/notify_on" android:summaryOff="@string/notify_off" android:title="@string/notify" android:defaultValue="false" android:enabled="true"/>
+        
+        <CheckBoxPreference android:key="screen" android:title="@string/screen" android:summaryOn="@string/screen_on" android:defaultValue="false" android:summaryOff="@string/screen_off" android:enabled="true"/>
+        <CheckBoxPreference android:key="wrap_msg" android:title="@string/wrap_msg" android:summaryOn="@string/wrap_msg_on" android:defaultValue="true" android:summaryOff="@string/wrap_msg_off" android:enabled="true"/>
+        <CheckBoxPreference android:summaryOn="@string/folderfirst" android:summaryOff="@string/mixdsort" android:key="sortmode" android:title="@string/filesortmode" android:defaultValue="true" android:enabled="true" /><ListPreference android:entryValues="@array/apktool_versions" android:title="@string/apktool_version" android:entries="@array/apktool_versions" android:key="apktool_version" android:enabled="true" android:defaultValue="2.0"/>
+        <ListPreference android:entries="@array/aapt_version" android:entryValues="@array/aapt_version" android:key="aapt_version" android:title="@string/aapt_version" android:enabled="true" android:defaultValue="new"/><CheckBoxPreference android:summaryOn="@string/have_root" android:summaryOff="@string/no_root" android:key="root" android:title="root" android:defaultValue="false" android:enabled="true"/>
+        
+             
+</PreferenceScreen> 

@@ -1,0 +1,142 @@
+
+    <resources>
+        <string name="app_name">ApKTOOl</string>
+        <color name="textcolor">#f905f5</color>
+	<string-array name="comp_array">
+            <item>recompile</item>
+            <item>browse</item><item>cancel</item>
+            
+            
+        </string-array><string-array name="dec_array">
+            <item >decompile all</item>
+            <item >decompile dex</item>
+            <item >decompile resources</item>
+            <item >sign</item>
+            <item >create odex</item>
+            <item >zipalign</item>
+            <item >install</item>
+            <item >delete dex in the apk</item>
+            <item >extract(META-INF)</item><item >delete(META-INF)</item>
+            <item >add(META-INF)</item>
+            
+            <item >import as framework</item><item >dex2jar</item><item >jar2dex</item><item >cancel</item>
+            
+            
+            
+            
+        </string-array>
+        
+        <string-array name="deodex_array">
+            <item >decompile</item>
+            <item >sign</item><item >cancel</item>
+            
+        </string-array>
+        <string-array name="decdex_array">
+            <item >decompile</item>
+            <item >add to apk with same name</item><item >add to jar with same name</item>
+            <item >cancel</item>
+
+        </string-array><string-array name="longpress_array">
+            <item >rename</item>
+            <item >delete</item>
+            <item >get access permission (need root)</item><item >set as apktool default access folder</item><item >cancel</item>
+            
+            
+            
+        </string-array>
+        <string-array name="unpackimg">
+            <item >expack-mt657x(need root)</item>
+            <item >expack-common(need root)</item>
+            <item >cancel</item>
+        </string-array>
+        <string-array name="repackimg">
+            <item >repack-mt657x(need root)</item>
+            <item >repack-common(need root)</item>
+            <item >browse</item>
+            <item >cancel</item>
+        </string-array><string name="op_done">operation finish!</string>
+        <string name="cost_time">cost time:</string>
+        <string name="hour">h</string>
+        <string name="minute">m</string>
+        <string name="second">s</string>
+        <string name="ok">OK</string>
+        <string name="copy">copy</string>
+        <string name="decompile_all_finish">decompile all finish!</string>
+        <string name="sign_finish">sign finish!</string>
+        <string name="recompile_finish">recompile finish!</string>
+        <string name="decompile_dex_finish">decompile dex finish!</string>
+        <string name="decompile_res_finish">decompile resources finish!</string>
+        <string name="decompile_odex_finish">decompile odex finish!</string>
+        <string name="import_finish">import finish!</string>
+        <string name="align_finish">align finish!</string>
+        <string name="delete_finish">delete finish!</string>
+        <string name="add_finish">add finish!</string>
+        
+        <string name="decompiling">decompiling</string>
+        <string name="signing">signing</string>
+        <string name="making">creating</string>
+        <string name="aligning">aligning</string>
+        <string name="deleting">deleting</string>
+        <string name="unpacking">unpacking</string>
+        <string name="dir_exist">META-INF already exists in current path.Delete it first!</string>
+        <string name="adding">adding</string>
+        <string name="dir_not_exist">META-INF does not exists in current path!</string>
+        <string name="importing_framework">importing framework</string>
+        <string name="recompiling">recompiling</string>
+        <string name="apk_not_exist">The apk file with same name does not exist!</string>
+        <string name="jar_not_exist">The jar file with same name does not exist!</string>
+        <string name="new_name">new name</string>
+        <string name="cancel">Cancel</string><string name="want_to_delete">Delete it?</string>
+        <string name="repacking">repacking</string>
+        <string name="never_remind">never remind</string><string name="put_background">put the job into background</string>
+        <string name="declaration">Declaration</string>
+        <string name="want_to_exit">Exit?</string>
+        <string name="yes">YES</string>
+        <string name="no">NO</string>
+        <string name="about">About</string>
+        <string name="vibration_on">vibration on</string>
+        <string name="setting">Settings</string>
+        <string name="notify">notification</string>
+        <string name="screen_on">keep screen on</string>
+        
+        <string name="nofreetask">Tasks be max!</string>
+        <string name="cur_task_not_run">current task not running</string>
+        
+        <string name="agreement">This is a personal software without any warranty.Use it at your own risk!</string>
+        <string name="directory_no_permission">No permission to access</string>
+        <string name="warning">Warning</string>
+        <string name="data_not_in_sdcard">The default apktool data folder /sdcard/apktool is missing! Please longpress the real apktool data folder and set it as apktool data folder. </string>
+        <string name="wrap_msg">wrap output message</string>
+        <string name="running">running</string>
+        <string name="make_rom">Test function only.After operation,a new folder named rom will be created in apktool data folder.You may need to custom META-INF/com/google/android/updater-script.And you need to create zip by yourself.</string>
+        <string name="making_rom">ROM creating, will take some time.</string>
+        <string name="vibration_off">vibration off</string>
+        <string name="vibration">vibration</string>
+        <string name="notify_on">notification on</string>
+        <string name="notify_off">notification off</string>
+        <string name="screen">keep screen on</string>
+        <string name="screen_off">screen not keeping on</string>
+        <string name="wrap_msg_on">wrap output message</string>
+        <string name="wrap_msg_off">not wrap output  message</string>
+        <string name="themes">themes(take effect after reboot)</string>
+        <string name="apktool_version">apktool version</string>
+        <string name="aapt_version">aapt version</string>
+        <string name="visit">Visit</string>
+        <string name="refresh">Refresh</string>
+        <string name="tasks">Tasks</string>
+        <string name="makerom">create ROM</string>
+        <string name="donate">Donate</string>
+        <string name="exit">Exit</string>
+        <string name="folderfirst">sort folder first </string>
+        <string name="mixdsort">sort folder and file together</string>
+        <string name="filesortmode"> file sort rule</string>
+        <string name="have_root">Device has root(need app reboot)</string>
+        <string name="no_root">Device has no root</string>
+        <string name="detail">This apktool on android v5.0.</string>
+        <string name="diagnose">Diagnose</string>
+        <string name="diagnose_msg">The diagnosis file is at /sdcard/apktool_info.txt,please mail author with this file.</string>
+
+        
+        
+        
+    </resources>

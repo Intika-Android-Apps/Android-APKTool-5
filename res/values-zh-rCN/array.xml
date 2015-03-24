@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apktool_versions">
+        <item>2.0</item><item >1.5.2</item>
+        
+    </string-array>
+    <string-array name="themes">
+        <item >灰色背景</item>
+        <item >蓝色背景</item>
+        <item >黑色背景</item>
+    </string-array>
+    <string-array name="aapt_version">
+        <item >4.4</item>
+        <item >/system/bin/aapt</item>
+        <item >new</item>
+    </string-array>
+    
+</resources>
